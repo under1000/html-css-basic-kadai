@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="despriction" content="このページは第13章課題です">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>13章課題</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <!-- ロゴ -->
+        <img src="images/logo.png" alt="ロゴ">
+        <!-- PC用ナビゲーション -->
+        <nav id="nav-pc">
+            <ul>
+                <li><a href="">CONCEPT</a></li>
+                <li><a href="">PRODUCT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </nav>
+        <!-- スマホ用ナビゲーション -->
+        <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
+            <img src="images/button-menu.png" alt="ナビゲーションを開く">
+          </button>
+          <!-- スマホ用ナビゲーション -->
+        <nav id="nav-sp">
+            <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
+            <img src="images/button-close.png" alt="ナビゲーションを閉じる">
+            </button>
+            <ul>
+                <li>
+                    <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+                </li>
+                <li><a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a></li>
+                <li><a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODACT</a></li>
+                <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a></li>
+                
+            </ul>           
+        </nav>    
+    </header>
+    <main>
+        <article>
+          <!-- メインビジュアル -->
+          <section id="main-visual">
+            <div id="main-message">
+              <h1>Organic Cafe</h1>
+              <p>自家焙煎コーヒーが買えるお店</p>
+            </div>
+            <img src="images/main-image.jpg" alt="コーヒーをハンドドリップで淹れる画像"/>
+          </section>
+        </article>
+      </main>
+    
+</body>
+</html>
