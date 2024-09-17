@@ -21,15 +21,9 @@
             </ul>
         </nav>
         <!-- スマホ用ナビゲーション -->
-          <button id="menu-sp" onclick="document.getElementById('nav-sp').style.display = 'block'">
-            <img src="images/button-menu.png" alt="ナビゲーションを開く">
-          </button>
-          <!-- スマホ用ナビゲーション -->
-          <div id="nav-sp">
-        <nav>
-            <button id="close" onclick="document.getElementById('nav-sp').style.display = 'none'">
-            <img src="images/button-close.png" alt="ナビゲーションを閉じる">
-            </button>
+         <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
+        <nav id="nav-sp">
+          <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる" onclick="document.getElementById('nav-sp').style.display = 'none'">
             <ul>
                 <li>
                     <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
@@ -40,7 +34,7 @@
                 
             </ul>           
         </nav>    
-         </div>
+         <!-- </div> -->
         
     </header>
     <main>
