@@ -79,6 +79,8 @@ body p{
       position: absolute;
       top: 20px;
       right: 20px;
+      background-color: transparent;
+      border: none;
     }
     #logo-sp{
       margin: 80px 0px 30px 20px;
